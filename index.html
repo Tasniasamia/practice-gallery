@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,200px);
+        }
+        .container img{
+            
+          height: 100%;
+          width:100%;
+         
+        }
+        .image2 {
+	grid-column: 3 / span 2;
+}
+        .image1 {
+	
+	grid-column: 1 / span 2;}
+    .image1 img{
+	
+   
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/image-1.jpg"class="image1" alt="image1">
+        <img src="images/image-2.webp"class="image2" alt="image2">
+        <img src="images/image-3.jpg"class="image3" alt="image3">
+        <img src="images/image-4.jpg"class="image4" alt="image4">
+        <img src="images/image-5.webp"class="image5" alt="image5">
+        <img src="images/image-6.jpg"class="image6" alt="image6">
+    </div>
+</body>
+</html>
